@@ -30423,21 +30423,21 @@ s.toString
 A.ai8(s,"deviceorientation",new A.XL(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s,r=this,q=null,p=r.KW(r.d),o=A.d9(a,q,t.w).w.a,n=o.b,m=o.a,l=A.a7y(B.c.T(r.d,1)+" "+p,q),k=r.d,j=A.a1w(B.n)
+X(a){var s,r=this,q=null,p=r.KW(r.d),o=A.d9(a,q,t.w).w.a,n=o.b,m=o.a,l=A.a7y(B.c.T(r.d,1)+" "+p+":",q),k=r.d,j=A.a1w(B.n)
 j=A.a1G(A.a1G(q,new A.eG(q,new A.lI(new A.o2("assets/18111.jpg")),A.a1w(B.n),q,q,q,B.cx),n*0.4,q,new A.bn(10,10,10,10),m*0.4),new A.eG(q,q,j,q,q,q,B.cx),q,q,new A.bn(20,20,20,20),q)
 s=t.eE
 j=A.a([new A.yr(B.wQ,60,q),A.a4K(new A.t_(A.ahI(k*3.141592653589793/180),B.al,!0,q,j,q),q,q),A.a2O(q,120,q)],s)
 k=r.d
 if(k>=318.51&&k<=321){k=A.a1w(B.AK)
 j.push(A.a1G(A.a7y("You Are Pointing At Qibla",A.mD(q,q,q,q,q,q,q,q,q,q,q,24,q,q,B.bg,q,q,!0,q,q,q,q,q,q,q,q)),new A.eG(q,q,k,q,q,q,B.cw),q,q,new A.bn(10,10,10,10),q))}return new A.r7(A.agA(A.a2O(A.a4V(A.a([l,new A.xV(1,B.i_,A.a4V(j),q)],s)),n,m),!0),q)},
-KW(a){if(a>=337.5||a<22.5)return"N"
-if(a>=22.5||a<67.5)return"NE"
-if(a>=67.5||a<112.5)return"E"
-if(a>=112.5||a<157.5)return"SE"
-if(a>=157.5||a<202.5)return"S"
-if(a>=202.5||a<247.5)return"SW"
-if(a>=247.5||a<292.5)return"W"
-if(a>=292.5||a<337.5)return"NW"
+KW(a){if(a>=337.5&&a<22.5)return"N"
+if(a>=22.5&&a<67.5)return"NE"
+if(a>=67.5&&a<112.5)return"E"
+if(a>=112.5&&a<157.5)return"SE"
+if(a>=157.5&&a<202.5)return"S"
+if(a>=202.5&&a<247.5)return"SW"
+if(a>=247.5&&a<292.5)return"W"
+if(a>=292.5&&a<337.5)return"NW"
 return"N"}}
 A.XL.prototype={
 $1(a){var s
