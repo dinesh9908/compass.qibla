@@ -30421,26 +30421,15 @@ s.toString
 A.ai5(s,"deviceorientation",new A.XJ(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s=null,r=A.d8(a,s,t.w).w.a,q=r.b,p=r.a,o=A.a2P("v1"),n=this.d,m=A.a2P(A.o(n)),l=A.a4v(B.o)
+X(a){var s=null,r=A.d8(a,s,t.w).w.a,q=r.b,p=r.a,o=A.a2P("v2"),n=this.d,m=A.a2P(A.o(n)),l=A.a4v(B.o)
 l=A.a4R(A.a4R(s,new A.fk(s,new A.lI(new A.o0("assets/18111.jpg")),A.a4v(B.o),s,s,s,B.cv),q*0.4,s,new A.br(10,10,10,10),p*0.4),new A.fk(s,s,l,s,s,s,B.cv),s,s,new A.br(20,20,20,20),s)
 l=A.a([o,m,new A.xS(1,B.hW,A.ada(new A.rX(A.ahF(n),B.al,!0,s,l,s),s,s),s)],t.eE)
 o=this.d
 if(o>=318.51&&o<=317)l.push(A.a2P("qibla found"))
 return new A.r4(A.agw(A.ah_(new A.wU(B.fV,B.ca,B.nc,B.bQ,s,B.Jw,s,0,l,s),q,p),!0),s)},
-Qz(a,b,c){var s,r,q,p,o,n,m,l={},k=a*0.017453292519943295,j=b*0.017453292519943295,i=c*0.017453292519943295,h=Math.cos(k),g=Math.sin(k)
-Math.cos(j)
-s=Math.sin(j)
-r=Math.cos(i)
-q=Math.sin(i)
-p=-h*q-g*s*r
-o=-g*q+h*s*r
-n=l.a=Math.atan(p/o)
-if(o<0)m=l.a=n+3.141592653589793
-else if(p<0){n+=6.283185307179586
-l.a=n
-m=n}else m=n
-l.a=m*57.29577951308232
-this.b4(new A.XH(l,this))}}
+Qz(a,b,c){var s=a*57.29577951308232
+if(s<0)this.d+=360
+this.b4(new A.XH(this,s))}}
 A.XJ.prototype={
 $1(a){var s,r=a.alpha,q=a.beta,p=a.gamma
 A.li(r)
@@ -30459,7 +30448,7 @@ r.toString
 q.a.Qz(p,s,r)},
 $S:0}
 A.XH.prototype={
-$0(){this.b.d=this.a.a},
+$0(){this.a.d=this.b},
 $S:0}
 A.fh.prototype={
 C(){return"AnimationStatus."+this.b},
