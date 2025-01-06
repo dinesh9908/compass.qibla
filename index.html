@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <!-- <base href="/"> -->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -51,14 +51,14 @@
         const x = magnetometer.x;
         const y = magnetometer.y;
         const z = magnetometer.z;
-        alert(`Magnetic Field X: ${x}\nMagnetic Field Y: ${y}\nMagnetic Field Z: ${z}`);
+//        alert(`Magnetic Field X: ${x}\nMagnetic Field Y: ${y}\nMagnetic Field Z: ${z}`);
 
         // Send data to Dart (via the window object or a global function)
         window.postMessage({ type: 'MAGNETOMETER', data: { x, y, z } }, '*');
       });
       magnetometer.start();
     } else {
-      alert(`Magnetometer not supported on this device.`);
+  //    alert(`Magnetometer not supported on this device.`);
 
       console.log("Magnetometer not supported on this device.");
     }
