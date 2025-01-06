@@ -30429,7 +30429,7 @@ j=A.a4U(A.a4U(q,new A.fl(q,new A.lI(new A.o0("assets/18111.jpg")),A.a4w(B.n),q,q
 s=t.eE
 s=A.a([l,new A.xV(1,B.hW,A.a4T(A.a([new A.yr(B.wM,60,q),A.a4I(new A.t_(A.ahI(k*3.141592653589793/180),B.al,!0,q,j,q),q,q)],s)),q)],s)
 l=r.d
-if(l>=318.51||l<=317)s.push(A.a7y("qibla found"))
+if(l>=318.51&&l<=321)s.push(A.a7y("qibla found"))
 return new A.r6(A.agA(A.a7h(A.a4T(s),n,m),!0),q)},
 KW(a){if(a>=337.5||a<22.5)return"N"
 if(a>=22.5||a<67.5)return"NE"
