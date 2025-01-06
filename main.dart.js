@@ -30416,9 +30416,9 @@ s.toString
 A.ai4(s,"deviceorientation",new A.XI(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s=this,r=null,q=s.KV(s.d),p=A.d8(a,r,t.w).w.a,o=p.b,n=p.a,m=A.a2O("v7"),l=s.d,k=A.a2O(A.o(l)+" "+q),j=A.a4u(B.o)
+X(a){var s=this,r=null,q=s.KV(s.d),p=A.d8(a,r,t.w).w.a,o=p.b,n=p.a,m=A.a2O("v8"),l=A.a2O(B.c.T(s.d,1)+" "+q),k=s.d,j=A.a4u(B.o)
 j=A.a4Q(A.a4Q(r,new A.fk(r,new A.lH(new A.o_("assets/18111.jpg")),A.a4u(B.o),r,r,r,B.cv),o*0.4,r,new A.br(10,10,10,10),n*0.4),new A.fk(r,r,j,r,r,r,B.cv),r,r,new A.br(20,20,20,20),r)
-j=A.a([m,k,new A.xS(1,B.hW,A.ad9(new A.rW(A.ahE(l*3.141592653589793/180),B.al,!0,r,j,r),r,r),r)],t.eE)
+j=A.a([m,l,new A.xS(1,B.hW,A.ad9(new A.rW(A.ahE(k*3.141592653589793/180),B.al,!0,r,j,r),r,r),r)],t.eE)
 m=s.d
 if(m>=318.51&&m<=317)j.push(A.a2O("qibla found"))
 return new A.r3(A.agv(A.agZ(new A.wU(B.fV,B.ca,B.nc,B.bQ,r,B.Jw,r,0,j,r),o,n),!0),r)},
