@@ -29263,12 +29263,16 @@ r=Math.cos(i)
 q=Math.sin(i)
 p=-h*q-g*s*r
 o=-g*q+h*s*r
-n=l.a=Math.atan(p/o)
-if(o<0)m=l.a=n+3.141592653589793
-else if(p<0){n+=6.283185307179586
+l.a=null
+if(o===0){n=p>0?1.5707963267948966:4.71238898038469
 l.a=n
-m=n}else m=n
-l.a=m*57.29577951308232
+m=n}else{n=Math.atan(p/o)
+l.a=n
+m=n}if(o<0)m=l.a=m+3.141592653589793
+else if(p<0){n=m+6.283185307179586
+l.a=n
+m=n}n=l.a=m*180/3.141592653589793
+if(n<0)l.a=n+360
 this.b2(new A.W3(l,this))}}
 A.W5.prototype={
 $1(a){var s,r=a.alpha,q=a.beta,p=a.gamma
@@ -29279,8 +29283,13 @@ s=this.a
 s.b2(new A.W4(s,r,q,p))},
 $S:114}
 A.W4.prototype={
-$0(){var s=this
-s.a.P5(s.b,s.c,s.d)},
+$0(){var s,r,q=this,p=q.b
+p.toString
+s=q.c
+s.toString
+r=q.d
+r.toString
+q.a.P5(p,s,r)},
 $S:0}
 A.W3.prototype={
 $0(){this.b.d=this.a.a},
