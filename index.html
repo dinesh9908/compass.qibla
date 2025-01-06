@@ -32,6 +32,18 @@
   <title>compass</title>
   <link rel="manifest" href="manifest.json">
   <script>
+ window.addEventListener("deviceorientation", handleOrientation, true);
+ function handleOrientation(event) {
+  console.log(event);
+  var absolute = event.absolute;
+  var alpha    = event.alpha;
+  var beta     = event.beta;
+  var gamma    = event.gamma;
+  // Do stuff with the new orientation data
+}
+
+  </script>
+  <script>
     
       if ("Magnetometer" in window) {
       const magnetometer = new Magnetometer();
