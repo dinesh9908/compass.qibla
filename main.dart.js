@@ -30421,7 +30421,7 @@ s.toString
 A.ai5(s,"deviceorientation",new A.XJ(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s=null,r=this.d,q=A.d8(a,s,t.w).w.a,p=q.b,o=q.a,n=A.a2P("v4"),m=A.a2P(A.o(this.d)),l=A.a4v(B.o)
+X(a){var s=null,r=this.d,q=A.d8(a,s,t.w).w.a,p=q.b,o=q.a,n=A.a2P("v5"),m=A.a2P(A.o(r*57.29577951308232)),l=A.a4v(B.o)
 l=A.a4R(A.a4R(s,new A.fk(s,new A.lI(new A.o0("assets/18111.jpg")),A.a4v(B.o),s,s,s,B.cv),p*0.4,s,new A.br(10,10,10,10),o*0.4),new A.fk(s,s,l,s,s,s,B.cv),s,s,new A.br(20,20,20,20),s)
 l=A.a([n,m,new A.xS(1,B.hW,A.ada(new A.rX(A.ahF(r*0.017453292519943295),B.al,!0,s,l,s),s,s),s)],t.eE)
 r=this.d
