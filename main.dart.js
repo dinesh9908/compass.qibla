@@ -6899,7 +6899,8 @@ or:function or(a){this.a=a},
 CD:function CD(){this.d=0
 this.c=this.a=null},
 XM:function XM(a){this.a=a},
-XL:function XL(a){this.a=a},
+XL:function XL(a,b){this.a=a
+this.b=b},
 fj:function fj(a,b){this.a=a
 this.b=b},
 bX:function bX(){},
@@ -30422,14 +30423,14 @@ s.toString
 A.ai8(s,"deviceorientation",new A.XM(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s=this,r=null,q=s.KW(s.d),p=A.d9(a,r,t.w).w.a,o=p.b,n=p.a,m=A.a7y(B.h.T(s.d,1)+" : "+q,r),l=s.d,k=A.a1x(B.n),j=A.a1H(r,new A.eG(r,new A.lI(new A.o3("assets/18111.jpg")),A.a1x(B.n),r,r,r,B.cx),o*0.4,r,new A.bn(10,10,10,10),n*0.4)
+X(a){var s=this,r=null,q=s.KW(s.d),p=A.d9(a,r,t.w).w.a,o=p.b,n=p.a,m=A.a7y(B.c.T(s.d,1)+" : "+q,r),l=s.d,k=A.a1x(B.n),j=A.a1H(r,new A.eG(r,new A.lI(new A.o3("assets/18111.jpg")),A.a1x(B.n),r,r,r,B.cx),o*0.4,r,new A.bn(10,10,10,10),n*0.4)
 k=A.a1H(new A.mG(A.Rl(1,1,1),B.ag,!0,r,j,r),new A.eG(r,r,k,r,r,r,B.cx),r,r,new A.bn(20,20,20,20),r)
 j=t.eE
 k=A.a([new A.yr(B.wQ,60,r),A.a4K(new A.mG(A.ahI(-(l*3.141592653589793/180)),B.ag,!0,r,k,r),r,r),A.a2O(r,120,r)],j)
 l=s.d
 if(l>=318.51&&l<=321){l=A.a1x(B.AK)
 k.push(A.a1H(A.a7y("You Are Pointing At Qibla",A.mD(r,r,r,r,r,r,r,r,r,r,r,24,r,r,B.bg,r,r,!0,r,r,r,r,r,r,r,r)),new A.eG(r,r,l,r,r,r,B.cw),r,r,new A.bn(10,10,10,10),r))}return new A.r8(A.agA(A.a2O(A.a4V(A.a([m,new A.xV(1,B.i_,A.a4V(k),r)],j)),o,n),!0),r)},
-KW(a){if(a<30)return"N"
+KW(a){if(a>=0&&a<30)return"N"
 if(a>=30&&a<67.5)return"NE"
 if(a>=67.5&&a<112.5)return"E"
 if(a>=112.5&&a<157.5)return"SE"
@@ -30442,10 +30443,12 @@ A.XM.prototype={
 $1(a){var s
 A.vG(a.alpha)
 s=this.a
-s.b9(new A.XL(s))},
+s.b9(new A.XL(s,a))},
 $S:317}
 A.XL.prototype={
-$0(){this.a.d=0},
+$0(){var s=this.b.alpha
+s.toString
+this.a.d=s},
 $S:0}
 A.fj.prototype={
 C(){return"AnimationStatus."+this.b},
