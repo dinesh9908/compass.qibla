@@ -6899,7 +6899,8 @@ oo:function oo(a){this.a=a},
 CD:function CD(){this.d=0
 this.c=this.a=null},
 XL:function XL(a){this.a=a},
-XK:function XK(a){this.a=a},
+XK:function XK(a,b){this.a=a
+this.b=b},
 fi:function fi(a,b){this.a=a
 this.b=b},
 bX:function bX(){},
@@ -30423,7 +30424,7 @@ s.toString
 A.ai8(s,"deviceorientation",new A.XL(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s,r=this,q=null,p=r.KW(r.d),o=A.d9(a,q,t.w).w.a,n=o.b,m=o.a,l=A.a7y(B.h.T(r.d,1)+" "+p),k=r.d,j=A.a4w(B.n)
+X(a){var s,r=this,q=null,p=r.KW(r.d),o=A.d9(a,q,t.w).w.a,n=o.b,m=o.a,l=A.a7y(B.c.T(r.d,1)+" "+p),k=r.d,j=A.a4w(B.n)
 j=A.a4U(A.a4U(q,new A.fl(q,new A.lI(new A.o0("assets/18111.jpg")),A.a4w(B.n),q,q,q,B.cv),n*0.4,q,new A.br(10,10,10,10),m*0.4),new A.fl(q,q,j,q,q,q,B.cv),q,q,new A.br(20,20,20,20),q)
 s=t.eE
 s=A.a([l,new A.xV(1,B.hW,A.a4T(A.a([new A.yr(B.wM,60,q),A.a4I(new A.t_(A.ahI(k*3.141592653589793/180),B.al,!0,q,j,q),q,q)],s)),q)],s)
@@ -30440,13 +30441,15 @@ if(a>=247.5||a<292.5)return"W"
 if(a>=292.5||a<337.5)return"NW"
 return"N"}}
 A.XL.prototype={
-$1(a){var s
-A.vG(a.alpha)
+$1(a){var s,r=a.alpha
+A.vG(r)
 s=this.a
-s.b9(new A.XK(s))},
+s.b9(new A.XK(s,r))},
 $S:317}
 A.XK.prototype={
-$0(){this.a.d=0},
+$0(){var s=this.b
+s.toString
+this.a.d=s},
 $S:0}
 A.fi.prototype={
 C(){return"AnimationStatus."+this.b},
