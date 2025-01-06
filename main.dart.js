@@ -30421,12 +30421,12 @@ s.toString
 A.ai5(s,"deviceorientation",new A.XJ(this),!1)
 this.bh()},
 m(){this.aP()},
-X(a){var s=null,r=A.d8(a,s,t.w).w.a,q=r.b,p=r.a,o=A.a2P("v2"),n=this.d,m=A.a2P(A.o(n)),l=A.a4v(B.o)
-l=A.a4R(A.a4R(s,new A.fk(s,new A.lI(new A.o0("assets/18111.jpg")),A.a4v(B.o),s,s,s,B.cv),q*0.4,s,new A.br(10,10,10,10),p*0.4),new A.fk(s,s,l,s,s,s,B.cv),s,s,new A.br(20,20,20,20),s)
-l=A.a([o,m,new A.xS(1,B.hW,A.ada(new A.rX(A.ahF(n),B.al,!0,s,l,s),s,s),s)],t.eE)
-o=this.d
-if(o>=318.51&&o<=317)l.push(A.a2P("qibla found"))
-return new A.r4(A.agw(A.ah_(new A.wU(B.fV,B.ca,B.nc,B.bQ,s,B.Jw,s,0,l,s),q,p),!0),s)},
+X(a){var s=null,r=this.d,q=A.d8(a,s,t.w).w.a,p=q.b,o=q.a,n=A.a2P("v3"),m=A.a2P(A.o(this.d)),l=A.a4v(B.o)
+l=A.a4R(A.a4R(s,new A.fk(s,new A.lI(new A.o0("assets/18111.jpg")),A.a4v(B.o),s,s,s,B.cv),p*0.4,s,new A.br(10,10,10,10),o*0.4),new A.fk(s,s,l,s,s,s,B.cv),s,s,new A.br(20,20,20,20),s)
+l=A.a([n,m,new A.xS(1,B.hW,A.ada(new A.rX(A.ahF(r*0.017453292519943295),B.al,!0,s,l,s),s,s),s)],t.eE)
+r=this.d
+if(r>=318.51&&r<=317)l.push(A.a2P("qibla found"))
+return new A.r4(A.agw(A.ah_(new A.wU(B.fV,B.ca,B.nc,B.bQ,s,B.Jw,s,0,l,s),p,o),!0),s)},
 Qz(a,b,c){var s=a*57.29577951308232
 if(s<0)this.d+=360
 this.b4(new A.XH(this,s))}}
