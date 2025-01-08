@@ -43,27 +43,7 @@
 }
 
   </script>
-  <script>
-    
-      if ("Magnetometer" in window) {
-      const magnetometer = new Magnetometer();
-      magnetometer.addEventListener('reading', () => {
-        const x = magnetometer.x;
-        const y = magnetometer.y;
-        const z = magnetometer.z;
-//        alert(`Magnetic Field X: ${x}\nMagnetic Field Y: ${y}\nMagnetic Field Z: ${z}`);
-
-        // Send data to Dart (via the window object or a global function)
-        window.postMessage({ type: 'MAGNETOMETER', data: { x, y, z } }, '*');
-      });
-      magnetometer.start();
-    } else {
-  //    alert(`Magnetometer not supported on this device.`);
-
-      console.log("Magnetometer not supported on this device.");
-    }
-  </script>
-
+ 
 
 </head>
 <body>
