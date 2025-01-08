@@ -6978,7 +6978,7 @@ s.xC()},
 AK:function AK(a){this.a=a},
 rY:function rY(a){this.a=a},
 Hx:function Hx(){var _=this
-_.e=_.d=0
+_.f=_.e=_.d=0
 _.c=_.a=null},
 a1O:function a1O(a,b){this.a=a
 this.b=b},
@@ -31596,13 +31596,15 @@ S(a){var s=this,r=null,q=A.d4(a,r,t.w).w.a,p=A.Yj("Qibla Finder",r),o=A.a9C(B.xJ
 m=A.MF(new A.nI(A.Ty(1,1,1),B.P,!0,r,l,r),new A.e7(r,r,m,r,r,r,B.cY),r,r,new A.bl(20,20,20,20),r)
 l=t.nA
 m=A.a([o,A.y1(new A.nI(A.alK(n),B.P,!0,r,m,r),r,r),A.ab4(r,120,r)],l)
-o=s.d
-if(o>=318.51&&o<=321){o=A.a53(B.BE)
+o=s.f
+n=s.d
+if(o>=n&&o-2<=n){o=A.a53(B.BE)
 m.push(A.MF(A.Yj("You Are Pointing At Qibla",A.nF(r,r,r,r,r,r,r,r,r,r,r,24,r,r,B.bA,r,r,!0,r,r,r,r,r,r,r,r)),new A.e7(r,r,o,r,r,r,B.aZ),r,r,new A.bl(10,10,10,10),r))}return new A.to(new A.p9(p,new A.Hs(r,r,1/0,56),r),A.y1(A.a8D(A.a([new A.zp(1,B.iA,A.a8D(m,B.cz),r),A.Yj("Direction: "+A.p(s.d),r),A.Yj("Magnetometer X: "+A.p(s.e),r)],l),B.nR),r,r),r)}}
 A.a1O.prototype={
 $0(){var s=this.a,r=this.b,q=J.aA(r)
 s.d=q.j(r,"color")
-s.e=J.b9(q.j(r,"magnetometer"),"x")},
+s.e=J.b9(q.j(r,"magnetometer"),"x")
+s.f=q.j(r,"qibla")},
 $S:0}
 A.a1N.prototype={
 $1(a){this.a.Yv(0,a)},
