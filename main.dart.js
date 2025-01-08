@@ -30440,12 +30440,11 @@ s=n.d
 r=A.jj("Qibla Finder",m)
 q=t.nA
 p=A.a3o(A.a([A.jj("N",A.h1(m,m,m,m,m,m,m,m,m,m,m,40,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m)),A.aiD(A.a([A.jj("W",A.h1(m,m,m,m,m,m,m,m,m,m,m,40,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m)),A.a3s(m,new A.eo(B.M,m,A.a6u(B.m,2),m,m,m,B.eq),300,m,m,300),A.jj("E",A.h1(m,m,m,m,m,m,m,m,m,m,m,40,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m))],q),B.bw,B.fm,B.fn),A.jj("S",A.h1(m,m,m,m,m,m,m,m,m,m,m,40,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m))],q),B.nQ)
-o=A.a7N(B.xC,m,60)
-o=A.a([A.Wc(B.a9,A.a([p,new A.tL(A.ajK(0.017453292519943295*s),B.a9,!0,m,o,m)],q),B.h5),A.a9f(m,120,m)],q)
+p=A.a([A.Wc(B.a9,A.a([new A.tL(A.ajK(-0.017453292519943295*s),B.a9,!0,m,p,m),A.a7N(B.xC,m,60)],q),B.h5),A.a9f(m,120,m)],q)
 s=n.f
-p=n.d
-if(s>=p&&s-2<=p){s=A.a6u(B.B6,1)
-o.push(A.a3s(A.jj("You Are Pointing At Qibla",A.h1(m,m,m,m,m,m,m,m,m,m,m,24,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m)),new A.eo(m,m,s,m,m,m,B.aZ),m,m,new A.bl(10,10,10,10),m))}return new A.rR(new A.oH(r,new A.Gu(m,m,1/0,56),m),A.L_(A.a3o(A.a([new A.yD(1,B.iC,A.a3o(o,B.cw),m),A.jj("V3",m),A.jj("Direction: "+A.n(n.d),m),A.jj("Magnetometer X: "+A.n(n.e),m)],q),B.fm),m,m),m)}}
+o=n.d
+if(s>=o&&s-2<=o){s=A.a6u(B.B6,1)
+p.push(A.a3s(A.jj("You Are Pointing At Qibla",A.h1(m,m,m,m,m,m,m,m,m,m,m,24,m,m,B.au,m,m,!0,m,m,m,m,m,m,m,m)),new A.eo(m,m,s,m,m,m,B.aZ),m,m,new A.bl(10,10,10,10),m))}return new A.rR(new A.oH(r,new A.Gu(m,m,1/0,56),m),A.L_(A.a3o(A.a([new A.yD(1,B.iC,A.a3o(p,B.cw),m),A.jj("V4",m),A.jj("Direction: "+A.n(n.d),m),A.jj("Magnetometer X: "+A.n(n.e),m)],q),B.fm),m,m),m)}}
 A.a04.prototype={
 $0(){var s=this.a,r=this.b,q=J.aC(r)
 s.d=q.j(r,"color")
