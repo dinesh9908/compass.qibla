@@ -30473,9 +30473,9 @@ B.Kp.Re(s,"deviceorientation",new A.Zz(this))},
 RB(a,b){var s=a*0.017453292519943295,r=0.6950984232775208-b*0.017453292519943295
 this.aM(new A.Zx(this,Math.atan2(Math.sin(r),Math.cos(s)*Math.tan(0.3738929321156825)-Math.sin(s)*Math.cos(r))))},
 R(a){var s=null,r=A.aak("Compass App"),q=this.d,p=A.a4c(s,s,new A.ek(s,new A.mc(new A.mN("https://cdn.onlinewebfonts.com/svg/img_467023.png"),B.uf),s,s,A.a([new A.fD(0,B.hl,A.a4(51,0,0,0),B.h,15)],t.xq),s,B.cQ),320,s,s,320)
-p=A.a([new A.tF(A.aks(-q*0.017453292519943295),B.J,!0,s,p,s)],t.eE)
+p=A.a([new A.tF(A.aks(q*0.017453292519943295),B.J,!0,s,p,s)],t.eE)
 if(this.f)p.push(A.UF(s,A.a4c(s,s,new A.ek(B.Bj,s,s,s,s,s,B.cQ),64,s,s,64),s,s,s,s,s,s))
-p.push(A.UF(40,new A.yv(this.gGJ(),s,s,s,s,s,s,!1,s,A.aak("Start Compass"),s),s,s,s,s,s,s))
+p.push(A.UF(40,new A.yv(this.gGJ(),s,s,s,s,s,s,!1,s,A.aak("Start Compas"),s),s,s,s,s,s,s))
 return new A.rM(new A.oC(r,new A.GL(s,s,1/0,56),s),A.a42(A.WM(B.J,p,B.fX),s,s),s)}}
 A.Zz.prototype={
 $1(a){var s=this.a
